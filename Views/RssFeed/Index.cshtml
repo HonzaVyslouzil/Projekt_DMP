@@ -1,0 +1,27 @@
+﻿@model IEnumerable<RssFeed>
+
+<h1>RSS Feeds</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>URL</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rssFeed in Model)
+        {
+            <tr>
+                <td>@rssFeed.Name</td>
+                <td>@rssFeed.Url</td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@rssFeed.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    <a asp-action="Create">Create new RSS Feed</a>
+</p>

@@ -1,0 +1,25 @@
+﻿@model RssFeed
+
+<h1>Articles for @Model.Name</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Publish Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model.Articles)
+        {
+            <tr>
+                <td>@article.Title</td>
+                <td>@article.PublishDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    <a asp-action="Filter" asp-route-id="@Model.Id">Filter Articles</a> |
+    <a asp-action="Reload" asp-route-id="@Model.Id">Reload Articles</a> |
+    <a asp-action="Index">Back to List</a>
+</p>

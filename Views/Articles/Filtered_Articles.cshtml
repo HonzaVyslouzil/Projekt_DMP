@@ -1,0 +1,23 @@
+﻿@model List<Article>
+
+<h1>Filtered Articles</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Publish Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>@article.Title</td>
+                <td>@article.PublishDate.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    <a asp-action="Index">Back to Articles</a>
+</p>

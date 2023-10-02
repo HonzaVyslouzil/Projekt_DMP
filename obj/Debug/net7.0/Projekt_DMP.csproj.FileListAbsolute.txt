@@ -1,0 +1,8 @@
+/Users/janvyslouzil/Development/Projekt_DMP/Projekt_DMP/Projekt_DMP/obj/Debug/net7.0/Projekt_DMP.csproj.AssemblyReference.cache
+/Users/janvyslouzil/Development/Projekt_DMP/Projekt_DMP/Projekt_DMP/obj/Debug/net7.0/Projekt_DMP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/janvyslouzil/Development/Projekt_DMP/Projekt_DMP/Projekt_DMP/obj/Debug/net7.0/Projekt_DMP.AssemblyInfoInputs.cache
+/Users/janvyslouzil/Development/Projekt_DMP/Projekt_DMP/Projekt_DMP/obj/Debug/net7.0/Projekt_DMP.AssemblyInfo.cs
+/Users/janvyslouzil/Development/Projekt_DMP/Projekt_DMP/Projekt_DMP/obj/Debug/net7.0/Projekt_DMP.csproj.CoreCompileInputs.cache
+/Users/janvyslouzil/Development/Projekt_DMP/Projekt_DMP/Projekt_DMP/obj/Debug/net7.0/Projekt_DMP.MvcApplicationPartsAssemblyInfo.cache
+/Users/janvyslouzil/Development/Projekt_DMP/Projekt_DMP/Projekt_DMP/obj/Debug/net7.0/Projekt_DMP.RazorAssemblyInfo.cache
+/Users/janvyslouzil/Development/Projekt_DMP/Projekt_DMP/Projekt_DMP/obj/Debug/net7.0/Projekt_DMP.RazorAssemblyInfo.cs
